@@ -41,6 +41,7 @@ public class OrderUrgeController {
 	@RequestMapping(value = "/orderUrge/syncUpdateActive.html", method = RequestMethod.POST)
 	@ResponseBody
 	public Integer syncUpdateActive(@RequestBody MarketingPlanVO planVO) {
+		System.out.println("===88");
 		return orderUrgeService.syncUpdateActive(planVO);
 	}
 }
