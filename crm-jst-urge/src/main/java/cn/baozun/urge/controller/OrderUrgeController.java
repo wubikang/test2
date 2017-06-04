@@ -23,7 +23,7 @@ public class OrderUrgeController {
 	@RequestMapping(value = "/orderUrge/syncSavePlan.html", method = RequestMethod.POST)
 	@ResponseBody
 	public Integer syncSavePlan(@RequestBody MarketingPlanVO planVO) {
-		System.out.println("===");
+		System.out.println("===55");
 		return orderUrgeService.syncSavePlan(planVO);
 	}
 
